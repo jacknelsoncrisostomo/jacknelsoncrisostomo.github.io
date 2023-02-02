@@ -1,0 +1,30 @@
+/* Screens Settings */
+
+  @media (max-width: 1200px) {
+	#content{
+		padding:50px 50px; 
+	}
+
+	#graphics_menu {  
+		padding-top: 30px; 
+	    margin: 1rem 0rem;
+	    column-count: 2;
+	    -webkit-column-gap: 1rem;
+	    -moz-column-gap: 1rem;
+	    column-gap: 1rem;
+	    -webkit-column-width: 33.33333333333333%;
+	    -moz-column-width: 33.33333333333333%;
+	    column-width: 33%;
+	}
+  } 
+
+   @media (max-width: 1900px) {
+	.keyart_layer {
+	  background-position: top center;
+	  background-size: auto 850px;
+	  background-repeat: repeat-x;
+	  width: 100%;
+	  position: absolute;
+	}
+  }
+
